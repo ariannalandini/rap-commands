@@ -7,13 +7,14 @@
 - [Regenie_step2](#regenie-step2)
 
 
+
 ### 0) Prerequisites
 
 ##### Create the target cohort
-From the overall project cohort, extract the individuals of White British ancestry and add phenotype(s) and covariate(s) columns of interest: in this case, they would be bmi (phenotype), age and sex (covariates).
-
-Since this is only an example, we extracted a subset from the available sample. We restricted the analysis to white British women, between 55 and 60 years old, with not missing BMI values. This subset cohort was created using the [Cohort browser](https://documentation.dnanexus.com/user/cohort-browser#opening-datasets-using-the-cohort-browser) and then exported into text file by using the [Table exporter app](https://ukbiobank.dnanexus.com/app/table-exporter).
+From the overall project cohort, extract the individuals of White British ancestry and add phenotype(s) and covariate(s) columns of interest: in this case, these would be bmi (phenotype), age and sex (covariates). This cohort was created using the [Cohort browser](https://documentation.dnanexus.com/user/cohort-browser#opening-datasets-using-the-cohort-browser) and then exported into text file by using the [Table exporter app](https://ukbiobank.dnanexus.com/app/table-exporter).
 Find [here](https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/accessing-phenotypic-data-as-a-file#selecting-fields-of-interest-in-the-cohort-browser) further details on how to access phenotypic data as a file check.
+
+Once 
 
 Login in dxpy (DNA Nexus CLI tool used to interact with the platform) by typing:
 ```bash
